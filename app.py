@@ -1,14 +1,15 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # ✅ Add this
+from flask_cors import CORS 
 
 from utils import search_articles, concatenate_content, generate_answer
 from dotenv import load_dotenv
 import os
+import traceback
 
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)  # ✅ Enable CORS
+CORS(app)  
 
 @app.route('/query', methods=['POST'])
 def query():
@@ -28,7 +29,8 @@ def query():
         return jsonify({"answer": answer})
 
     except Exception as e:
-        print(f"Error occurred: {e}")
+        print("Exception occurred:")
+        traceback.print_exc()  
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
