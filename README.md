@@ -18,7 +18,7 @@ A smart AI-powered Retrieval-Augmented Generation (RAG) system that fetches rele
 ## 📂 Project Structure
 
 ```bash
-rag-ai-system/
+experiment/
 ├── app.py              # Flask backend
 ├── utils.py            # Web search, scraping, LLM generation
 ├── frontend.py              # Streamlit frontend
@@ -33,7 +33,7 @@ rag-ai-system/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/MVenkatsai02/full-stack
+git clone https://github.com/MVenkatsai02/experiment
 cd multi-agent-ai-code-generator
 ```
 
