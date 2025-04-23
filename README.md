@@ -34,7 +34,7 @@ experiment/
 
 ```bash
 git clone https://github.com/MVenkatsai02/experiment
-cd multi-agent-ai-code-generator
+cd experiment
 ```
 
 ### 2️⃣ Set Up a Virtual Environment
