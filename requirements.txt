@@ -4,3 +4,4 @@ python-dotenv
 streamlit
 bs4
 google-generativeai
+flask-cors
