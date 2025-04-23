@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Python notebooks checkpoints
+.ipynb_checkpoints/
+
+# Flask instance folder
+instance/
+
+# Environment variables
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Log files
+*.log
+
+# Jupyter Notebook stuff
+*.ipynb
+
+# MyPy
+.mypy_cache/
+
+# Model checkpoints or data
+checkpoints/
+*.ckpt
+*.h5
+*.pth
+*.pt
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# pip dependency files
+pip-log.txt
+
+# Database
+*.sqlite3
+*.db
