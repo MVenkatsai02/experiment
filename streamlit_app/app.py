@@ -8,7 +8,7 @@ query = st.text_input("Enter your query:")
 if st.button("Search") and query:
     with st.spinner("Searching and generating answer..."):
         try:
-            response = requests.post("http://localhost:5001/query", json={"query": query})
+            response = requests.post("https://exp-1-xmk3.onrender.com/query", json={"query": query})
             if response.status_code == 200:
                 answer = response.json().get('answer', "No answer received.")
                 st.markdown("### Answer:")
