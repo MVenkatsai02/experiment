@@ -102,7 +102,7 @@ Example: https://rag-backend.onrender.com/query
 
 2 Go to Streamlit Cloud.
 
-3 Deploy your repo and select streamlit_app/app.py as the main file.
+3 Deploy your repo and select frontend.py as the main file.
 
 4 Done! Share your app link.
 
